@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+
+@theme {
+    --colo-ios: hsl(171, 66%, 44%);
+    --colo-mac: #6173FF;
+    --font-display: "Bai Jamjuree";
+}
