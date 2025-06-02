@@ -11,7 +11,7 @@ import vector from "../../assets/logo-vector-graphics.png"
 
 function Meio() {
     return (
-        <main className="flex flex-col justify-content items-center /">
+        <main className="   flex flex-col justify-content items-center /">
 
             <h1 className="text-gray-600 font-semibold text-2xl mt-5 w-60 text-center / sm:w-screen">Keep track of your snippets</h1>
             <p className="text-gray-400 font-normal w-72 mt-5 mb-20 text-center / sm:w-[600px]">Clipboard instatly stores any item you copy in the cloud,
@@ -24,15 +24,15 @@ function Meio() {
             <div className="flex flex-col / sm:flex-row ">
                 <img src={pc} alt="" srcset="" className="w-96 / sm:relative sm:w-[850px] sm:right-[400px]" />
 
-                <div className="flex flex-col justify-center items-center">
-                    <h1 className="text-gray-600 font-semibold text-2xl mt-[125px] w-[325px] text-left">Quick Search</h1>
-                    <p className="text-gray-400 font-normal w-[325px] mt-5 mb-20 text-left">Easily search your snippets by content category, web address, application, and more.</p>
+                <div className="flex flex-col justify-center items-center   ">
+                    <h1 className="text-gray-600 font-semibold text-2xl mt-[125px] w-[325px] text-center sm:text-left">Quick Search</h1>
+                    <p className="text-gray-400 font-normal w-[325px] mt-5 mb-20 text-center sm:text-left">Easily search your snippets by content category, web address, application, and more.</p>
 
-                    <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[325px] text-left">iCloud Sync</h1>
-                    <p className="text-gray-400 font-normal w-[325px] mt-5 mb-20 text-left">Instantly saves and syncs snippets across all your devices</p>
+                    <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[325px] text-center sm:text-left">iCloud Sync</h1>
+                    <p className="text-gray-400 font-normal w-[325px] mt-5 mb-20 text-center sm:text-left">Instantly saves and syncs snippets across all your devices</p>
 
-                    <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[325px] text-left">Complete History</h1>
-                    <p className="text-gray-400 font-normal w-[325px] mt-5 mb-20 text-left">Retrieve any snippets from the first moment you started using the app.</p>
+                    <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[325px] text-center sm:text-left">Complete History</h1>
+                    <p className="text-gray-400 font-normal w-[325px] mt-5 mb-20 text-center sm:text-left">Retrieve any snippets from the first moment you started using the app.</p>
                 </div>
             </div>
 
@@ -52,21 +52,21 @@ function Meio() {
 
             <div className="sm:flex sm:flex-row sm:gap-14 items-center justify-center">
 
-                <div className="sm:flex sm:flex-col sm:items-center">
-                    <img src={blacklist} alt="" srcset="" className="sm:w-[80px]" />
+                <div className="flex flex-col items-center ">
+                    <img src={blacklist} alt="" srcset="" className="block sm:w-[80px]" />
                     <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[350px] text-center">Create blacklists</h1>
                     <p className="text-gray-400 font-normal w-[320px] mt-5 mb-20 text-center">Ensure sensitive information never makes its way your clipboard by excluding certain sources.</p>
 
                 </div>
 
-                <div className="sm:flex sm:flex-col sm:items-center">
-                    <img src={text} alt="" srcset="" className="sm:w-[80px]" />
+                <div className="flex flex-col items-center">
+                    <img src={text} alt="" srcset="" className="sm:w-[80px] block" />
                     <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[350px] text-center">Plain text snippets</h1>
                     <p className="text-gray-400 font-normal w-[350px] mt-5 mb-20 text-center">Remove unwanted formatting from copied text for a consistent look.</p>
 
                 </div>
 
-                <div className="sm:flex sm:flex-col sm:items-center">
+                <div className="flex flex-col items-center">
                     <img src={preview} alt="" srcset="" className="sm:w-[80px] sm:" />
                     <h1 className="text-gray-600 font-semibold text-2xl mt-2 w-[350px] text-center">Sneak preview</h1>
                     <p className="text-gray-400 font-normal w-[350px] mt-5 mb-20 text-center">Quick preview of all snippets on your Clipboard for easy access.</p>
