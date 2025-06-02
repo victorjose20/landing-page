@@ -5,7 +5,7 @@ import insta from "../../assets/icon-instagram.svg"
 
 function Rodape() {
     return (
-        <footer className="bg-gray-100 flex flex-col justify-center  items-center / sm:flex-row sm:gap-80">
+        <footer className="bg-gray-100 flex flex-col justify-center  items-center mt-20 / sm:flex-row sm:gap-80 ">
 
             <div className="flex flex-col justify-center items-center / sm:flex-row sm:gap-40">
                 <img src={logo} alt="" srcset="" className="w-28 mt-20 mb-20" />
