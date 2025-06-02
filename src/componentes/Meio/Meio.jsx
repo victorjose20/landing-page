@@ -11,7 +11,8 @@ import vector from "../../assets/logo-vector-graphics.png"
 
 function Meio() {
     return (
-        <main className="   flex flex-col justify-content items-center /">
+        
+        <main className="   flex flex-col justify-content items-center ">
 
             <h1 className="text-gray-600 font-semibold text-2xl mt-5 w-60 text-center / sm:w-screen">Keep track of your snippets</h1>
             <p className="text-gray-400 font-normal w-72 mt-5 mb-20 text-center / sm:w-[600px]">Clipboard instatly stores any item you copy in the cloud,
